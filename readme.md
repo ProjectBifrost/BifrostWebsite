@@ -1,27 +1,22 @@
-## Laravel PHP Framework
+## Project Bifrost - Website
+[![Master](https://img.shields.io/badge/branch-master-orange.svg)](https://github.com/ProjectBifrost/BifrostWebsite/tree/master) [![Build Status](https://img.shields.io/travis/ProjectBifrost/BifrostWebsite/master.svg)](https://travis-ci.org/ProjectBifrost/BifrostWebsite/branches) [![Code Quality](https://img.shields.io/codacy/17d5c6243ca74add8f246048c47aaf04/master.svg)](https://www.codacy.com/app/ProjectBifrost/BifrostWebsite/dashboard?bid=3033616) [![GitHub tags](https://img.shields.io/github/tag/ProjectBifrost/BifrostWebsite.svg)](https://github.com/ProjectBifrost/BifrostWebsite/tags)
+<br />
+[![Develop](https://img.shields.io/badge/branch-develop-orange.svg)](https://github.com/ProjectBifrost/BifrostWebsite/tree/develop) [![Build Status](https://img.shields.io/travis/ProjectBifrost/BifrostWebsite/develop.svg)](https://travis-ci.org/ProjectBifrost/BifrostWebsite/branches) [![Code Quality](https://img.shields.io/codacy/17d5c6243ca74add8f246048c47aaf04/develop.svg)](https://www.codacy.com/app/ProjectBifrost/BifrostWebsite/dashboard?bid=3033615)
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+Project Bifrost is a free OAuth 2.0 provider for Minecraft accounts that allows users to prove ownership of a Minecraft account by logging into a Minecraft server.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+This allows developers to implement a 'Login with Minecraft' option for there users, while allowing users to feel safe in the knowledge that they never have to provide there Minecraft/Mojang account password to anyone  but Mojang.
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+## Documentation
 
-## Official Documentation
-
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+Documentation for the ProjectBifrost API and Website have not yet been created.
 
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+Thank you for considering contributing to ProjectBifrost. If you would like to help, but don't know what to do, take a look at the [Issues](https://github.com/ProjectBifrost/BifrostWebsite/issues) or join us on the Terra Gaming Network [Slack Team](http://slack.terragaming.co.uk).
 
 ## Security Vulnerabilities
+If you discover a Security Vulnerabilities within any ProjectBifrost code, please email [ben@terragaming.co.uk](mailto://ben@terragaming.co.uk).
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+## License
+All ProjectBifrost code is open-sourced and released under the [LGPL](http://choosealicense.com/licenses/lgpl-3.0/ "Lesser General Public License v3.0").
