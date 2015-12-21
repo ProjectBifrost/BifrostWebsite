@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Bifrost
+        psr4_prefix: Bifrost
+        src_path: app
