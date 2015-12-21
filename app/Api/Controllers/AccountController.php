@@ -12,9 +12,5 @@
  * file that was distributed with this source code.
  */
 
-namespace Bifrost\Events;
+namespace Bifrost\Api\Controllers;
 
-abstract class Event
-{
-
-}

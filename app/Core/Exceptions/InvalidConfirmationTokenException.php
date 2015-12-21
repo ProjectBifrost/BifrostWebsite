@@ -12,9 +12,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Bifrost\Events;
+namespace Bifrost\Core\Exceptions;
 
-abstract class Event
-{
+use Exception;
 
+class InvalidConfirmationTokenException extends Exception{
+	
 }

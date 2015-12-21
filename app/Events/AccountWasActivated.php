@@ -14,7 +14,21 @@
 
 namespace Bifrost\Events;
 
-abstract class Event
-{
+use Bifrost\Core\Account;
+use Bifrost\Core\Actor;
 
+use Bifrost\Events\Event;
+use Illuminate\Queue\SerializesModels;
+
+class AccountWasActivated extends Event{
+	use SerializesModels;
+
+	public $account;
+
+	public $actor;
+
+	public function __construct(Account $account, Actor $actor = null){
+		$this->account = $account;
+		$this->actor = $actor;
+	}
 }

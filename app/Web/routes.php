@@ -12,9 +12,6 @@
  * file that was distributed with this source code.
  */
 
-namespace Bifrost\Events;
+use Illuminate\Routing\Router;
 
-abstract class Event
-{
-
-}
+Route::get('/', 'HomeController@index', ['as' => 'index']);

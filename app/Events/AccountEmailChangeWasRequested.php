@@ -14,7 +14,20 @@
 
 namespace Bifrost\Events;
 
-abstract class Event
-{
+use Bifrost\Core\Account;
 
+use Bifrost\Events\Event;
+use Illuminate\Queue\SerializesModels;
+
+class AccountPasswordWasChanged extends Event{
+	use SerializesModels;
+
+	public $account;
+
+	public $email;
+
+	public function __construct(Account $account, $email){
+		$this->account = $account;
+		$this->email = $email;
+	}
 }

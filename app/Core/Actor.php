@@ -12,9 +12,16 @@
  * file that was distributed with this source code.
  */
 
-namespace Bifrost\Events;
+ namespace Bifrost\Core;
 
-abstract class Event
-{
+ use Bifrost\Database\AbstractModel;
+ use Bifrost\Core\Traits\EventGeneratorTrait;
 
-}
+ abstract class Actor extends AbstractModel{
+ 	use EventGeneratorTrait;
+
+ 	public function isGuest(){
+ 		return false;
+ 	}
+
+ }

@@ -28,6 +28,8 @@ return [
 
     'url' => 'http://localhost',
 
+    'domain' => env('APP_DOMAIN', null),
+
     /*
     |--------------------------------------------------------------------------
     | Application Timezone
@@ -140,11 +142,13 @@ return [
         /*
          * Application Service Providers...
          */
-        Bifrost\Providers\AppServiceProvider::class,
-        Bifrost\Providers\AuthServiceProvider::class,
-        Bifrost\Providers\EventServiceProvider::class,
-        Bifrost\Providers\RouteServiceProvider::class,
+        Bifrost\Core\CoreServiceProvider::class,
+        Bifrost\Api\ApiServiceProvider::class,
+        Bifrost\Web\WebServiceProvider::class,
 
+        LucaDegasperi\OAuth2Server\Storage\FluentStorageServiceProvider::class,
+        LucaDegasperi\OAuth2Server\OAuth2ServerServiceProvider::class,
+        Dingo\Api\Provider\LaravelServiceProvider::class,
     ],
 
     /*
@@ -192,6 +196,7 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
+        'Authorizer' => LucaDegasperi\OAuth2Server\Facades\Authorizer::class,
 
     ],
 

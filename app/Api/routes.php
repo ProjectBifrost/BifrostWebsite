@@ -12,9 +12,15 @@
  * file that was distributed with this source code.
  */
 
-namespace Bifrost\Events;
 
-abstract class Event
-{
+use Dingo\Api\Facade\Route;
+use League\Fractal\Manager;
+use League\Fractal\Resource\Item;
+use Terra\Api\Transformers\AccountTransformer;
+use Terra\Core\Account;
 
-}
+use Dingo\Api\Routing\Helpers;
+
+// Accounts
+
+Route::resource('accounts', 'AccountController');

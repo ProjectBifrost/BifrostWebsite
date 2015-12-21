@@ -12,9 +12,15 @@
  * file that was distributed with this source code.
  */
 
-namespace Bifrost\Events;
+namespace Bifrost\Web\Controllers;
 
-abstract class Event
-{
+use Bifrost\Http\Controllers\Controller;
+use Illuminate\Contracts\View\View;
+
+class HomeController extends Controller{
+
+	public function index(){
+		return View('home');
+	}
 
 }

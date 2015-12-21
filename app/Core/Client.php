@@ -12,9 +12,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Bifrost\Events;
+namespace Bifrost\Core;
 
-abstract class Event
-{
+use Bifrost\Core\Actor;
+
+class Client extends Actor{
+
+	protected $table = 'oauth_clients';
 
 }
